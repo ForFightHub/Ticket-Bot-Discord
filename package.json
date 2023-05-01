@@ -1,0 +1,21 @@
+{
+  "name": "ticket-bot-discord",
+  "version": "1.0.0",
+  "description": "A discord bot",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.3"
+   },
+   "scripts": {
+    "start": "node index.js"
+   }
+}
